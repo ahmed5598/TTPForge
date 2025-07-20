@@ -1,0 +1,23 @@
+---
+api_version: 2.0
+uuid: cc39da1e-6aba-4dc8-9ac5-af337802b150
+name: "@nocommit"
+description: |
+  "@nocommit"
+requirements:
+  platforms:
+    - os: darwin
+mitre:
+  tactics:
+    - "@nocommit"
+  techniques:
+    - "@nocommit"
+  subtechniques:
+    - "@nocommit"
+steps:
+  - name: hello_world
+    inline: |
+      echo "hello, world"
+    cleanup:
+      inline: |
+        echo "bye-bye, world"
